@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: rgb(211, 199, 224);
+}
+.tital{
+     position: relative;
+     width: 100%;
+     max-width: 900px;
+     min-height: 1090px;
+     background: rgb(194, 194, 235);
+     margin: 60px;
+     box-shadow: 0 35px 55px rgba(0,0,0, 1);
+}
+.top-side{
+    position: relative;
+    width: 100%;
+    height: 297px;
+    background: linear-gradient( 45deg , #5fd0e4,#cb37d8);
+    padding:50px;
+
+}
+h2{
+    margin-left: 37px;
+    font-size: 40px;
+    color: white;
+    line-height: 0.7cm;
+    letter-spacing:0;
+}
+h2 span{
+    margin-left: 38px;
+    font-size: 20px;
+    font-weight: 100px;
+}
+image{
+    width: 5cm;
+    height: 6cm;
+}
+.group{
+    position: relative;
+    display: grid;
+    gap: 40px;
+    width: 100%;
+    grid-template-columns: 2fr 3fr;
+}
+.group .Photo{
+    position: relative;
+    width: 100%;
+}
+.group .Photo img{
+    width: 4.5cm;
+    height: 5.5cm;
+}
+.group p{
+    color: white;
+    font-size: 0.6cm;
+    margin-bottom: 25px;
+}
+.group b{
+    color: black;
+}
+.bottom{
+    position: relative;
+    display: grid;
+    margin: 50px 10px 0;
+    grid-template-columns: 1.5fr 3fr;
+    margin-left: 10px;
+}
+.left-side h3 {
+    background: gray;
+    margin-bottom: 10px;
+    line-height: 1cm;
+    letter-spacing:0;
+    padding-left: 15px;
+    width: 200px;
+    border-radius: 2px;
+    
+}
+.contact-info li {
+    line-height: 1cm;
+    letter-spacing:0;
+}
+.contact-info li .icon{
+    color: rgb(84, 154, 247);
+}
+.hobbies p{
+    line-height: 1cm;
+    letter-spacing:0;
+}
+.attitude p{
+    line-height: 1cm;
+    letter-spacing:0;
+}
+.volunteer{
+    line-height: 1cm;
+    letter-spacing:0;
+
+}
+.personal-info{
+    background: gray;
+    margin-bottom: 20px;
+    padding-right: 100px;
+    margin-top: -20px
+}
+.per-info{
+position: relative;
+width: 100%;
+display: flex;
+flex-direction: column;
+gap: 10px;
+margin: 20px 0;
+
+}
+.per-info1{
+position: relative;
+display: grid;
+grid-template-columns: 1fr 3fr; 
+}
+.education{
+    background: gray;
+    margin-bottom: 20px;
+    padding-right: 100px;
+}
+.education-info{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+.education-info1{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;    
+}
+.work-ex{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+    margin: 20px 0;
+}
+.work-expirend{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.Skill{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 20px 0;
+}
+.Skill .Skill1 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.Skill .Skill1 b{
+    color: #880647;
+}
+.Skill .Skill1 .skill-value{
+    position: relative;
+    width:100% ;
+    height: 6px;
+    background: rgb(231, 230, 230);
+}
+.Skill .Skill1 .skill-value::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: var(--i);
+    background: #231fbf;
+}
+
+
+   
+    
+
