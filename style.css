@@ -183,6 +183,16 @@ grid-template-columns: 1fr 3fr;
     width: var(--i);
     background: #231fbf;
 }
+.video-david{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20cm;
+    width: 100%;
+    height: 10cm;
+    
+}
 
 
    
